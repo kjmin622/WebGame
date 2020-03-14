@@ -5,13 +5,10 @@ body{
     margin:0;
 }
 body>div{
-    width:100%;
+    width:1200px;
     height:400px;
     background-color: gray;
-}
-
-#player{
-    display: inline;
+    overflow:hidden;
 }
 #leg{
     position: absolute;

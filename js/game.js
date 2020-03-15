@@ -56,7 +56,7 @@ window.onload=function(){
         }
         if(jump!=2){
             jump+=1;
-            var up_speed=20;
+            var up_speed=jump==1 ? 23:17;
             var up = setInterval(
                 function(){
                     height+=up_speed;
@@ -72,7 +72,7 @@ window.onload=function(){
     }
 
     function down_jump(){
-        var down_speed=-3;
+        var down_speed=-4;
         var down = setInterval(
             function(){
                 if(down_speed>0) height-=down_speed;

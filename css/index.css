@@ -1,0 +1,13 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#game{
+    top: 30px;
+    overflow: hidden;
+    border:0px;
+}

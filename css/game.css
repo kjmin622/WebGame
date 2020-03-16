@@ -53,3 +53,7 @@ body{
     left: 33px;
     z-index: 0;
 }
+
+#enemy1{
+    visibility: hidden;
+}

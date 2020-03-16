@@ -106,4 +106,31 @@ window.onload=function(){
             },25
         )
     }
+
+    ////////////////////crash///////////////////////////////
+
+    ////////////////////enemy///////////////////////////////
+    class thorn{
+        constructor(){
+            this.hp=10000;
+            this.src="./src/image/enemy/thorn.png"
+            this.width=15;
+            this.height=40;
+            this.left=1200;
+            this.top=400-height;
+        }
+        get_src(){return this.src;}
+        get_width(){return this.width;}
+        get_height(){return this.height;}
+        get_left(){return this.left;}
+        get_top(){return this.top;}
+        set_left(Le){this.left=Le}
+    }
+
+    var enemy1=false;
+    setInterval(function(){
+        if(play){
+            if(enemy1)
+        }
+    })
 }

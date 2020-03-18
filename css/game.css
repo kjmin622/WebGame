@@ -56,4 +56,5 @@ body{
 
 #enemy1{
     visibility: hidden;
+    position: absolute;
 }

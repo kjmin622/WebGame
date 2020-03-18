@@ -1,4 +1,5 @@
 window.onload=function(){
+    console.log("TEST");
     var play=false;
 
     //////////////////menu//////////////////////////////////////
@@ -130,7 +131,7 @@ window.onload=function(){
     var enemy1=false;
     setInterval(function(){
         if(play){
-            if(enemy1)
+            if(enemy1){}
         }
     })
 }
